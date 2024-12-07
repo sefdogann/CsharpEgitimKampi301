@@ -93,9 +93,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CSharpEgitimKampi.DataAccessLayer\CSharpEgitimKampi301.DataAccessLayer.csproj">
+      <Project>{151F8A30-5728-4F8B-9405-6CA208C8E896}</Project>
+      <Name>CSharpEgitimKampi301.DataAccessLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CSharpEgitimKampi301.BusinessLayer\CSharpEgitimKampi301.BusinessLayer.csproj">
       <Project>{19457106-d5ab-4a6f-a097-cd1451f2ffc4}</Project>
       <Name>CSharpEgitimKampi301.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEgitimKampi301.EntityLayer\CSharpEgitimKampi301.EntityLayer.csproj">
+      <Project>{60D68066-D43C-4085-82F7-64E69DAB5EED}</Project>
+      <Name>CSharpEgitimKampi301.EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
